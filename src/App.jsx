@@ -285,8 +285,8 @@ const App = () => {
 
         /* --- MOBILE BURGER --- */
         .burger-btn {
-            width: 30px;
-            height: 20px;
+            width: 28px;
+            height: 18px;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -438,7 +438,7 @@ const App = () => {
             <h2 className="section-title reveal">About Me</h2>
             <div className="glass-card reveal">
                 <p style={{ fontSize: '1.1rem', color: '#ccc' }}>
-                    I am a <strong>B.Tech Computer Science</strong> graduate with a specialization in <strong>Blockchain Technologies</strong> from <strong>VIT Vellore</strong> (CGPA 8.97).
+                    I am a <strong>B.Tech Computer Science</strong> graduate with a specialization in <strong>Blockchain Technologies</strong> from <strong>VIT Vellore</strong>
                     <br /><br />
                     Motivated and enthusiastic, I am proficient in network security, digital forensics, and threat intelligence. I aspire to build a career as a Cybersecurity Analyst, contributing to the advancement of secure digital infrastructures.
                 </p>
