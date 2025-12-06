@@ -32,7 +32,6 @@ const App = () => {
     <div className="app-wrapper">
       {/* --- CSS STYLES --- */}
       <style>{`
-        /* IMPORT FONTS */
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap');
 
         /* --- VARIABLES --- */
@@ -69,7 +68,7 @@ const App = () => {
             position: relative;
         }
 
-        /* --- SIDEBAR (Desktop) --- */
+        /* --- SIDEBAR --- */
         .sidebar {
             position: fixed;
             top: 0;
@@ -88,7 +87,7 @@ const App = () => {
             transition: transform 0.3s ease;
         }
 
-        /* --- MOBILE HEADER (Hidden on Desktop) --- */
+        /* --- MOBILE HEADER --- */
         .mobile-header {
             display: none; /* Hidden by default */
             position: fixed;
@@ -116,14 +115,14 @@ const App = () => {
             min-height: 100vh;
         }
 
-        /* --- LOGO STYLES (Shared) --- */
+        /* --- LOGO STYLES  --- */
         .brand-logo {
             text-decoration: none;
             display: block;
             margin-bottom: 60px;
         }
 
-        /* Glass "RR" Logo Container */
+        /* Logo Container */
         .logo-box {
             width: 60px;
             height: 60px;
@@ -156,7 +155,7 @@ const App = () => {
             padding-right: 4px; /* Optical balance */
         }
 
-        /* --- NAVIGATION LINKS (Sidebar) --- */
+        /* --- NAVIGATION LINKS --- */
         .nav-menu {
             list-style: none;
             display: flex;
@@ -199,7 +198,7 @@ const App = () => {
             left: -15px;
         }
 
-        /* --- FOOTER INFO (Sidebar) --- */
+        /* --- FOOTER INFO --- */
         .sidebar-footer {
             margin-top: auto;
             font-size: 0.8rem;
@@ -269,7 +268,7 @@ const App = () => {
             border-radius: 2px;
         }
 
-        /* --- GLASS CARDS (Standardized) --- */
+        /* --- GLASS CARDS  --- */
         .glass-card {
             background: var(--glass-bg);
             border: 1px solid var(--glass-border);
@@ -316,8 +315,6 @@ const App = () => {
             transition: transform 0.4s var(--ease-apple);
         }
         .mobile-nav-overlay.open { transform: translateX(0); }
-
-        /* --- RESPONSIVE BREAKPOINTS --- */
         @media (max-width: 1024px) {
             /* Switch to Mobile Layout */
             .sidebar { display: none; }
@@ -349,8 +346,6 @@ const App = () => {
             .logo-box { width: 40px; height: 40px; border-radius: 10px; }
             .logo-text { font-size: 1.2rem; }
         }
-
-        /* --- ANIMATIONS --- */
         .orb { position: fixed; border-radius: 50%; filter: blur(80px); opacity: 0.5; z-index: 0; animation: float 20s infinite alternate; }
         .orb-1 { width: 50vw; height: 50vw; background: #0044ff; top: -10%; left: -10%; }
         .orb-2 { width: 40vw; height: 40vw; background: #8800ff; bottom: 0; right: 0; }
@@ -418,7 +413,7 @@ const App = () => {
         </ul>
       </div>
 
-      {/* --- MAIN CONTENT --- */}
+      {/* --- CONTENT --- */}
       <main className="main-content">
         
         <section id="hero" className="hero-section">
